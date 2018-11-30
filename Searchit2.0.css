@@ -21,7 +21,7 @@ header a:hover{
 }
 header span {
     float: right;
-    font-size: 25px;
+    font-size: 27px;
     text-decoration: none
 }
 /* header span img{
@@ -33,7 +33,7 @@ main{
     font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
     }
     #eazi{
-        background-image: url(images/bg.jpg);
+    background-image: url(images/bg.jpg);
     background-size: cover;
     padding-top: 60px;
     }
