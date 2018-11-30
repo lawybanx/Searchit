@@ -6,45 +6,45 @@ body{
 }
 header{
     background-color: white;
-    font-size: 12px;
-    padding: 1px;
-    margin-bottom: 10px;
+    font-size: 13px;
+    padding: 7px;
+    margin-bottom: px;
     margin-left: 110px;
 }
-header a, i{
+header a{
     text-decoration: none;
     color: grey;
-    /* font-family: Arial, Helvetica, sans-serif */
+}
+header a:hover{
+    color: rgb(73, 206, 206);
+    text-decoration: none
 }
 header span {
     float: right;
-    width: 35%
+    font-size: 25px;
+    text-decoration: none
 }
-header span img{
+/* header span img{
     border-radius: 15px;
-}
+} */
 main{
     background-image: url(images/shard.jpg);
     background-size: cover;
-    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif
-    
-}
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    }
+    #eazi{
+        background-image: url(images/bg.jpg);
+    background-size: cover;
+    padding-top: 60px;
+    }
 main a{
     text-decoration: none;
-}
-main a img{
-    display: inline;
-    margin-left:110px; 
-}
+    }
 nav{
-    display: inline-block;
-    width: 50%;
-    text-align: right;
-    margin-left: 310px;
-    vertical-align: text-bottom
+    margin-left: 350px;
+   
 }
 nav ul li{
-    display: inline;
     padding: 13px;
     font-size: 13px;
 }
@@ -53,33 +53,16 @@ nav ul li a{
     color: white
 }
 nav ul li a:hover{
-    color: lightblue
+    color: rgb(73, 206, 206);
+    text-decoration: none
 }
 section{
-    padding: 150px;
-    text-align: center;
+    padding: 200px;
 }
 section h1{
     color: white;
-    font-family: Arial, Helvetica, sans-serif;
     font-size: 40px;
     font-weight: bold;
     letter-spacing: -1px;
     text-shadow: 3px 1px 10px black
-}
-section input{
-    display: inline-block;
-    padding: 12px 20px;
-    margin: 5px 0;
-    border: 1px solid grey;
-    border-radius: 4px;
-    font-size: 15px;
-    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif
-}
-input[type=submit]{
-    background-color: rgb(223, 81, 81);
-    color: white;
-}
-input[type=submit]:hover{
-    background-color: brown
 }
