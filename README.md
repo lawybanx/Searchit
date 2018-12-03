@@ -1,0 +1,3 @@
+# Searchit
+The beginning...
+My journey as a frontend developer trainee at Brimatel global network
